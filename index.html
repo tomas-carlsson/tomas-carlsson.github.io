@@ -1,59 +1,77 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomas Carlsson | .NET Developer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tomas Carlsson — .NET developer student in Stockholm. Resume, projects and contact information.">
+  <title>Tomas Carlsson | .NET Developer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <h1>Tomas Carlsson</h1>
-        <p>.NET Developer Student | Nackademin</p>
+  <main class="container">
+    <header class="hero">
+      <div class="avatar" aria-hidden="true">TC</div>
+      <p class="eyebrow">HELLO, I'M</p>
+      <h1>Tomas Carlsson</h1>
+      <p class="subtitle">.NET Developer Student <span aria-hidden="true">·</span> Stockholm, Sweden</p>
+      <nav class="contact" aria-label="Contact links">
+        <a href="https://github.com/tomas-carlsson" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/tomas-carlsson-911075210" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="mailto:Tomas.dan.carlsson@hotmail.com">Email ↗</a>
+        <a href="tel:+46762204876">Call ↗</a>
+      </nav>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                I'm a .NET development student at
-                Nackademin in Stockholm, Sweden.
-                I enjoy building applications and
-                learning new technologies.
-            </p>
-        </section>
+    <section aria-labelledby="profile-heading">
+      <h2 id="profile-heading">Profile</h2>
+      <p>I'm studying .NET development at Nackademin in Stockholm. I enjoy problem-solving, building applications and developing my skills in C# and software architecture. I'm looking forward to gaining more hands-on experience in the IT industry.</p>
+    </section>
 
-        <section id="projects">
-            <h2>My Projects</h2>
+    <section aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <div class="entry">
+        <div class="entry-top"><h3>.NET Developer</h3><span class="date">2026–2028</span></div>
+        <p class="muted">Nackademin · Higher Vocational Education</p>
+      </div>
+    </section>
 
-            <article class="project-card">
-                <h3>Art Gallery Website</h3>
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Work Experience</h2>
+      <div class="entry">
+        <div class="entry-top"><h3>IKEA</h3></div>
+        <p class="muted">Work experience in a customer-focused environment.</p>
+      </div>
+    </section>
 
-                <p>
-                    A multi-page art gallery website
-                    built using HTML and CSS.
-                </p>
+    <section aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Technical Skills</h2>
+      <div class="tags"><span>C#</span><span>.NET</span><span>WinUI</span><span>MVVM</span><span>Git</span><span>GitHub</span><span>HTML</span><span>CSS</span></div>
+    </section>
 
-                <p>Technologies: HTML, CSS</p>
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <article class="project">
+        <h3>SupportTicketSystem</h3>
+        <p>A group project for managing support tickets, developed using C#, .NET, WinUI and a layered architecture.</p>
+        <p class="muted">C# · .NET · WinUI · MVVM</p>
+      </article>
+      <article class="project">
+        <h3>Art Gallery Website</h3>
+        <p>A multi-page art gallery website built with HTML and CSS.</p>
+        <p class="muted">HTML · CSS</p>
+        <div class="project-links">
+          <a href="https://tomas-carlsson.github.io/art-gallery-website/" target="_blank" rel="noopener noreferrer">Live website ↗</a>
+          <a href="https://github.com/tomas-carlsson/art-gallery-website" target="_blank" rel="noopener noreferrer">Source code ↗</a>
+        </div>
+      </article>
+    </section>
 
-                <a href="https://tomas-carlsson.github.io/art-gallery-website/"
-                   target="_blank" rel="noopener noreferrer">
-                    Live Demo
-                </a>
-
-                <a href="https://github.com/tomas-carlsson/art-gallery-website"
-                   target="_blank" rel="noopener noreferrer">
-                    View Code
-                </a>
-            </article>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2026 Tomas Carlsson</p>
-    </footer>
-
+    <section aria-labelledby="contact-heading" class="contact-section">
+      <h2 id="contact-heading">Get in Touch</h2>
+      <p><a href="mailto:Tomas.dan.carlsson@hotmail.com">Tomas.dan.carlsson@hotmail.com</a></p>
+      <p><a href="tel:+46762204876">+46 76 220 48 76</a></p>
+    </section>
+    <footer>© 2026 Tomas Carlsson</footer>
+  </main>
 </body>
 </html>
