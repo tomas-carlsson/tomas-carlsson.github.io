@@ -138,6 +138,14 @@ p {
     gap: 15px;
     flex-wrap: wrap;
 }
+.entry-bottom {
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 15px;
+    opacity: 0.5;
+    font-size: 13px;
+    flex-wrap: wrap;
+}
 
 .tags {
     display: flex;
